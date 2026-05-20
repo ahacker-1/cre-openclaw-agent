@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "tasks": [
+    {
+      "id": "task_sample_001",
+      "dealId": "deal_sample_001",
+      "workflowId": "cre-acquisition-intake",
+      "title": "Confirm rent roll and T12 source files",
+      "status": "open",
+      "priority": "high",
+      "owner": "openclaw",
+      "approvalRequired": false,
+      "blockedBy": [],
+      "source": {
+        "type": "synthetic",
+        "path": "examples/sample-taskflow.json"
+      },
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    }
+  ]
+}

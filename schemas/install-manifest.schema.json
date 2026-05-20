@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Install Manifest",
+  "type": "object",
+  "required": [
+    "version",
+    "files"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer"
+    },
+    "files": {
+      "type": "array"
+    }
+  }
+}

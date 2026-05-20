@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CRE Approval",
+  "type": "object",
+  "required": [
+    "id",
+    "status",
+    "requestedAction",
+    "requestedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "dealId": {
+      "type": "string"
+    },
+    "taskId": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "requested",
+        "approved",
+        "rejected",
+        "superseded",
+        "expired"
+      ]
+    },
+    "riskLevel": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
+    },
+    "actionType": {
+      "type": "string"
+    },
+    "requestedAction": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "requestedAt": {
+      "type": "string"
+    },
+    "resolvedAt": {},
+    "resolvedBy": {},
+    "notes": {
+      "type": "array"
+    }
+  }
+}

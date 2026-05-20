@@ -1,0 +1,43 @@
+{
+  "name": "cre-openclaw-agent",
+  "version": "0.1.0",
+  "description": "OpenClaw-native CRE acquisition helper: skills, workflows, workpads, state model, validation, and sample artifacts.",
+  "type": "module",
+  "bin": {
+    "cre-openclaw-agent": "./bin/cre-openclaw-agent.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node bin/cre-openclaw-agent.mjs validate",
+    "doctor": "node bin/cre-openclaw-agent.mjs doctor",
+    "sample": "node bin/cre-openclaw-agent.mjs sample --workspace ./tmp/sample-workspace",
+    "lint": "node scripts/lint.mjs",
+    "ci": "npm run lint && npm test && npm run validate"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "openclaw",
+    "commercial-real-estate",
+    "cre",
+    "agent",
+    "workflow",
+    "taskflow",
+    "underwriting",
+    "due-diligence",
+    "proptech",
+    "ai-agents"
+  ],
+  "author": "Avi Hacker",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahacker-1/cre-openclaw-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ahacker-1/cre-openclaw-agent/issues"
+  },
+  "homepage": "https://github.com/ahacker-1/cre-openclaw-agent#readme",
+  "devDependencies": {}
+}

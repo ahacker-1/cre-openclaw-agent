@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CRE Task",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "status",
+    "createdAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "dealId": {
+      "type": "string"
+    },
+    "workflowId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "open",
+        "active",
+        "waiting_on_input",
+        "approval_needed",
+        "blocked",
+        "done",
+        "parked",
+        "cancelled"
+      ]
+    },
+    "priority": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
+    },
+    "owner": {
+      "type": "string"
+    },
+    "approvalRequired": {
+      "type": "boolean"
+    },
+    "blockedBy": {
+      "type": "array"
+    },
+    "source": {
+      "type": "object"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    }
+  }
+}

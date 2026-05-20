@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CRE Deal",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "status",
+    "workflowState",
+    "createdAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "workflowState": {
+      "type": "string"
+    },
+    "assetType": {
+      "type": "string"
+    },
+    "address": {},
+    "market": {},
+    "units": {},
+    "squareFeet": {},
+    "askingPrice": {},
+    "noi": {},
+    "capRate": {},
+    "source": {
+      "type": "object"
+    },
+    "workpads": {
+      "type": "array"
+    },
+    "tags": {
+      "type": "array"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    }
+  }
+}

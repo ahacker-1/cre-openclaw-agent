@@ -1,0 +1,23 @@
+{
+  "id": "deal_sample_001",
+  "name": "Parkview Flats Sample",
+  "status": "active",
+  "workflowState": "captured",
+  "assetType": "multifamily",
+  "address": "123 Example Avenue, Sample City, ST",
+  "market": "Sample City",
+  "units": 48,
+  "askingPrice": 6200000,
+  "noi": 421000,
+  "capRate": 0.0679,
+  "source": {
+    "type": "synthetic",
+    "path": "examples/sample-deal.json"
+  },
+  "tags": [
+    "sample",
+    "synthetic"
+  ],
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z"
+}

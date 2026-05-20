@@ -1,0 +1,10 @@
+name: Documentation issue
+description: Report missing, unclear, or outdated docs
+labels: [documentation]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: Documentation issue
+    validations:
+      required: true

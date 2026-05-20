@@ -1,0 +1,24 @@
+cre-openclaw-agent
+Copyright 2026 Avi Hacker, J.D.
+
+This product is licensed under the Apache License, Version 2.0.
+
+This project is inspired by and includes adapted concepts, architecture,
+domain framing, workflow patterns, prompt structures, schemas, documentation
+language, and operating model ideas from:
+
+CRE Acquisition Orchestrator
+Copyright 2026 Avi Hacker, J.D.
+Repository: https://github.com/ahacker-1/cre-acquisition-orchestrator
+Licensed under the Apache License, Version 2.0.
+
+The upstream project includes software and domain knowledge frameworks developed
+by Avi Hacker, J.D. (https://www.theaiconsultingnetwork.com).
+Newsletter: https://avihacker.substack.com
+
+cre-openclaw-agent packages a narrower OpenClaw-native helper layer: skills,
+workflows, workpads, file-backed state schemas, validation, and deterministic
+sample artifacts for source-backed commercial real estate acquisition workflows.
+
+Modifications, extensions, and new work in cre-openclaw-agent are copyright
+their respective contributors.

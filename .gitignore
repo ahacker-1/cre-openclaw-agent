@@ -1,0 +1,12 @@
+node_modules/
+npm-debug.log*
+.DS_Store
+.env
+.env.*
+!.env.example
+tmp/
+coverage/
+*.log
+state/
+workpads/active/
+workpads/archive/

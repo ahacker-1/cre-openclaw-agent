@@ -1,0 +1,14 @@
+name: License or attribution concern
+description: Report a license, copyright, or attribution issue
+labels: [legal, attribution]
+body:
+  - type: textarea
+    id: concern
+    attributes:
+      label: Concern
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Relevant files or URLs
