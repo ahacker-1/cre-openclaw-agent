@@ -7,6 +7,6 @@ npm-debug.log*
 tmp/
 coverage/
 *.log
-state/
-workpads/active/
-workpads/archive/
+/state/
+/workpads/active/
+/workpads/archive/

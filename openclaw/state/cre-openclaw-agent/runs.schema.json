@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CRE Agent Run",
+  "type": "object",
+  "required": [
+    "id",
+    "command",
+    "status",
+    "startedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "command": {
+      "type": "string"
+    },
+    "workspace": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "success",
+        "failed",
+        "dry_run"
+      ]
+    },
+    "startedAt": {
+      "type": "string"
+    },
+    "endedAt": {
+      "type": "string"
+    },
+    "changedFiles": {
+      "type": "array"
+    },
+    "notes": {
+      "type": "array"
+    }
+  }
+}
